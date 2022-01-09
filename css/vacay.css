@@ -1,0 +1,52 @@
+h1 {
+  color: darkgreen;
+  text-align: center;
+}
+
+h2 {
+  color: lightgreen;
+  text-align: center;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+
+/* Styling the <a> elements in the list */
+li a {
+  display: block; /* Displaying the links as block elements makes the whole link area clickable */
+  color: #000;
+  background-color: skyblue;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+.home {
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgreen;
+  color: black;
+  text-align: center;
+}
