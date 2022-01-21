@@ -13,6 +13,10 @@ img{
   display: none;
 }
 
+#look-at{
+  display:none; 
+}
+
 .clickable {
   cursor: pointer;
   color: #cc3000;
@@ -20,5 +24,15 @@ img{
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.clickable2 {
+  cursor: pointer;
+  color: #cc3000;
+  font-weight: bold;
+}
+
+.clickable2:hover {
   text-decoration: underline;
 }

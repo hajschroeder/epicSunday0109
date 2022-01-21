@@ -4,3 +4,10 @@
     $("#saur-off").fadeToggle();
   });
 });
+
+$(document).ready(function(){
+  $(".clickable2").click(function(){
+    $("#look-at").fadeToggle();
+    $("#in-pocket").fadeToggle();
+  });
+});

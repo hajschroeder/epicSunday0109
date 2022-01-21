@@ -1,0 +1,116 @@
+body{
+  background-color: rgb(243, 198, 207);
+}
+
+
+.gallery{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.clickable{
+  cursor: pointer;
+  color: rgb(2, 157, 253);
+  font-weight: bold;
+}
+
+.clickable:hover{
+  text-decoration: underline;
+}
+
+
+.clickable2{
+  cursor: pointer;
+  color: rgb(2, 157, 253);
+  font-weight: bold;
+}
+
+.clickable2:hover{
+  text-decoration: underline;
+}
+
+.clickable3{
+  cursor: pointer;
+  color: rgb(2, 157, 253);
+  font-weight: bold;
+}
+
+.clickable3:hover{
+  text-decoration: underline;
+}
+
+.clickable4{
+  cursor: pointer;
+  color: rgb(2, 157, 253);
+  font-weight: bold;
+}
+
+.clickable4:hover{
+  text-decoration: underline;
+}
+
+.clickable5{
+  cursor: pointer;
+  color: rgb(2, 157, 253);
+  font-weight: bold;
+}
+
+.clickable5:hover{
+  text-decoration: underline;
+}
+
+#cart{
+  display: none;
+}
+
+#couple{
+  display: none;
+}
+
+#hike{
+  display: none;
+}
+
+#hobbit-hole{
+  display: none;
+}
+
+#shire{
+  display: none;
+}
+
+
+.heading {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: darkgreen;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(95, 61, 61);
+  text-align: center;
+
+}
+
+
+img {
+  width: 45%;
+  height: auto;
+}
+
+.home {
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgreen;
+  color: black;
+  text-align: center;
+  font-style: italic;
+}
+
