@@ -1,0 +1,105 @@
+body{
+  background-color: rgb(243, 198, 207);
+  font-family: 'Satisfy', cursive;
+}
+
+#hidey-hole{
+  display: none;
+}
+
+.heading {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clickable{
+  cursor: pointer;
+  color:rgb(95, 61, 61);
+  font-weight: bold;
+}
+.clickable:hover{
+  text-decoration: underline;
+}
+
+h1 {
+  color: darkgreen;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(95, 61, 61);
+  text-align: center;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+}
+
+/* Styling the <a> elements in the list */
+li a {
+  display: block; /* Displaying the links as block elements makes the whole link area clickable */
+  color: #000;
+  background-color: skyblue;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+p.intro {
+  text-align: center;
+  font-style: italic;
+  width: 50%;
+}
+
+p.about{
+  text-align: center;
+  font-style: italic;
+  width: 75%;
+}
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+.home {
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgreen;
+  color: black;
+  text-align: center;
+  font-style: italic;
+}
+
+.important {
+  color: rgb(80, 8, 22);
+  font-weight: bold;
+}
+
+.list{
+  font-style: italic;
+  color:rgb(95, 61, 61)
+}
+
+.sidebar{
+  font-style: italic;
+  width: 30%;
+  float: right;
+  padding: 8px;
+  background-color:rosybrown;
+}
+
+.couple{
+  float:right;
+}
