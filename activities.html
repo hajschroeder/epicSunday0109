@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <link href="css/vacay.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/activities.css" rel="stylesheet" type="text/css">
     <link href="images/oneRing.jpg" rel="icon">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts-activities.js"></script>
     <title>What To Do In The Shire</title>
   </head>
   <body>
+    <div class="container">
     <h1>There's plenty of great things to do here!</h1>
-    <ul>
-      <li>Hike one of our beautiful trails <img src="images/hike.jpg"></li>
-    </ul>
+    <p>Click a button to decide what activity you'd like to do</p>
+    <div id = "hike">
+    <button class="btn btn-hike" id = "brown">Take a hike on one of our may trails</button>
+    <button class="btn btn-drink" id="gold">Enjoy a hot pie and a nice golden ale at our local tavern</button>
+    <button class="btn btn-smoke" id="silver">Try some of our world class smoking weed!</button>
 
-    <div class="home">
-      <p><a href="index.html">Home</a></p>
-      </div>
+
+      <div class="home">
+        <p><a href="index.html">Home</a></p>
+      </div>  
+    </div>
   </body>
 </html>

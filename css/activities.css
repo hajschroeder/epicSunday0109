@@ -1,0 +1,49 @@
+body{
+  background-color: rgb(243, 198, 207);
+}
+
+.brown-background {
+  background-color: rgb(138, 47, 5);
+}
+
+.gold-background{
+  background-color: rgb(228, 201, 50);
+}
+
+.silver-background {
+  background-color: silver;
+}
+
+.heading {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: darkgreen;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(95, 61, 61);
+  text-align: center;
+
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+.home {
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgreen;
+  color: black;
+  text-align: center;
+  font-style: italic;
+}
+
